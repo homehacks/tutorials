@@ -3,7 +3,7 @@
   $secret_key = '1234567890';
 
   // CEC IDs of equipment. Can be single ID or multiple (ie: if also shutting off sound bar)
-  $cec_ids = [0,5];
+  $cec_ids = [0];
 
   $json = file_get_contents('php://input');
   $request = json_decode($json, true);
